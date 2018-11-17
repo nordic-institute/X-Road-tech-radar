@@ -1,0 +1,353 @@
+<html>
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>X-Road Core Tech Radar</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://zalando.github.io/tech-radar/release/radar-0.5.js"></script>
+
+<style type="text/css">
+  body {
+    font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
+    padding-bottom: 50px;
+  }
+  h3 {
+    margin-top: 50px;
+  }
+  li {
+    margin: 25px 50px 0 0;
+  }
+  table {
+    width: 1400px;
+    margin: 0 50px 0 50px;
+  }
+  td {
+    width: 50%;
+    vertical-align: top;
+    padding-right: 60px;
+  }
+</style>
+</head>
+
+<body>
+
+<svg id="radar"></svg>
+
+<script>
+radar_visualization({
+  svg_id: "radar",
+  width: 1450,
+  height: 1000,
+  colors: {
+    background: "#fff",
+    grid: "#bbb",
+    inactive: "#ddd"
+  },
+  title: "X-Road Core Tech Radar — 2018.11",
+  quadrants: [
+    { name: "Languages" },
+    { name: "Infrastructure" },
+    { name: "Frameworks" },
+    { name: "Data Management" }
+  ],
+  rings: [
+    { name: "ADOPT", color: "#93c47d" },
+    { name: "TRIAL", color: "#93d2c2" },
+    { name: "ASSESS", color: "#fbdb84" },
+    { name: "HOLD", color: "#efafa9" }
+  ],
+  print_layout: true,
+  // zoomed_quadrant: 0,
+  //ENTRIES
+  entries: [
+      {
+        quadrant: 3,
+        ring: 0,
+        label: "ASiC",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 3,
+        ring: 1,
+        label: "PostgreSQL 10",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 3,
+        ring: 3,
+        label: "PostgreSQL 9",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
+        label: "Akka (Java)",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 2,
+        label: "Node.js",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 1,
+        label: "Spring Boot",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 1,
+        label: "Spring Security",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
+        label: "Hibernate",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
+        label: "SLF4J",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 3,
+        label: "Logback",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 3,
+        label: "Ruby on Rails",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
+        label: "JUnit",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
+        label: "Mockito",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 2,
+        label: "Vue.js",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 0,
+        label: "RHEL7",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 3,
+        label: "Ubuntu 14",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 1,
+        label: "Ubuntu 18",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 0,
+        label: "PAM",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 0,
+        label: "LXD",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 2,
+        label: "Docker",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 0,
+        label: "Jetty 9",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 1,
+        ring: 0,
+        label: "Nginx",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 0,
+        label: "Java 8",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 0,
+        label: "JavaScript",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 1,
+        label: "OpenAPI 3",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 0,
+        label: "Python",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 2,
+        label: "TypeScript",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 3,
+        label: "C languages",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 3,
+        label: "Ruby",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 0,
+        ring: 3,
+        label: "JRuby",
+        active: true,
+        link: "",
+        moved: 0
+      },
+      {
+        quadrant: 3,
+        ring: 0,
+        label: "Liquibase",
+        active: true,
+        link: "",
+        moved: 0
+      },
+  ]
+  //ENTRIES
+});
+</script>
+
+<table>
+<tr>
+<td>
+
+<h3>What is the Tech Radar?</h3>
+
+<p>
+The X-Road Core Tech Radar is a list of technologies used in the implementation of the core components of X-Road data exchange layer. The list is complemented by an assessment result, called <i>ring assignment</i>, that has four rings with the following semantics:
+</p>
+
+<ul>
+<li><b>ADOPT</b> &mdash; Technologies that are currently used in X-Road core development and X-Road core releases. It's recommended to use these technologies when developing new core components.</li>
+<li><b>TRIAL</b> &mdash; Technologies that are currently being tested and/or used in unreleased (yet) components, and are very likely to be used in the future releases of X-Road core.</li>
+<li><b>ASSESS</b> &mdash; Technologies that are researched, assessed and/or used in prototyping. These technologies are promising and have clear potential value-add for X-Road core.</li>
+<li><b>HOLD</b> &mdash; Technologies not recommended to be used in new components, but can be continued to use in existing components. These technologies are deprecated or are not (yet) worth to (further) invest in.</li>
+</ul>
+
+</td><td>
+
+<h3>What is the purpose?</h3>
+
+<p>
+The Tech Radar is a tool to inspire and support X-Road developers to pick the best technologies for new X-Road core components.
+</p>
+
+<h3>How it is maintained?</h3>
+
+<p>
+The Tech Radar is maintained by <a href="https://niis.org" target="new" alt="NIIS website">Nordic Institute for Interoperability Solutions (NIIS)</a>.
+</p>
+
+</td></tr>
+</table>
+
+</body>
+</html>

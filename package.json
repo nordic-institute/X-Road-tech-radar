@@ -1,0 +1,17 @@
+{
+  "name": "x-road-tech-radar",
+  "version": "2018.11",
+  "description": "Visualize X-Road core technology choices",
+  "homepage": "https://github.com/nordic-institute/X-Road-tech-radar",
+  "repository": "https://github.com/nordic-institute/X-Road-tech-radar.git",
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.4"
+  },
+  "scripts": {
+    "start": "browser-sync docs -w"
+  }
+}
